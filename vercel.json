@@ -3,12 +3,21 @@
   "builds": [
     {
       "src": "index.html",
-      "use": "@vercel/static-build",
-      "config": { "distDir": "." }
+      "use": "@vercel/static" // <--- 關鍵更改：使用 @vercel/static
     },
     {
       "src": "api/*.js",
       "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/events",
+      "dest": "/api/events.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
