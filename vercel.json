@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "index.html",
-      "use": "@vercel/static" // <--- 關鍵更改：使用 @vercel/static
+      "use": "@vercel/static"
     },
     {
       "src": "api/*.js",
