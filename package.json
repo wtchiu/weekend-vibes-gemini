@@ -1,9 +1,10 @@
+
+
 {
   "name": "weekend-vibes-proxy",
   "version": "1.0.0",
-  "description": "Backend proxy for calling Gemini API securely.",
-  "main": "api/events.js",
   "dependencies": {
-    "@google/genai": "^0.2.1"
+    "@google/genai": "^0.1.0"  
+    // 💡 關鍵更改：將版本號改為 "^0.1.0"，這會讓 npm 自動安裝最新的 0.x.x 版本 (目前可能是 0.3.0 或更高)，避免鎖死在舊版。
   }
 }
