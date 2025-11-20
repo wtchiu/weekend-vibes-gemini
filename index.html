@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="zh-Hant"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Weekend Vibes North ✨ 北台灣週末活動精選&lt;/title&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://unpkg.com/react@18.2.0/umd/react.development.js"&gt;&lt;/script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.development.js"&gt;&lt;/script&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://unpkg.com/lucide-react@0.323.0/dist/umd/lucide-react.js"&gt;&lt;/script&gt;<span class="Apple-converted-space"> </span></p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://unpkg.com/@google/genai@0.2.1/dist/index.browser.umd.js"&gt;&lt;/script&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://unpkg.com/@babel/standalone/babel.min.js"&gt;&lt;/script&gt;</p>
+<p class="p2"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>tailwind.config = {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>theme: {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>extend: {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>colors: {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>'chic-dark': '#111827',<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>'chic-lime': '#DFF6A5',<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>'chic-blue': '#B4C6FC',<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>'chic-bg': '#F9F9F7',<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>},</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>fontFamily: {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>'sans': ['Noto Sans TC', 'sans-serif'],</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>'display': ['Poppins', 'sans-serif'],</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>},</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>animation: {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>'spin-slow': 'spin 30s linear infinite',</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght=400;500;700;900&amp;family=Poppins:wght=700;800&amp;display=swap" rel="stylesheet"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.no-scrollbar::-webkit-scrollbar { display: none; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body class="bg-chic-bg font-sans antialiased"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="root"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script type="text/babel"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>/**</p>
+<p class="p1"><span class="Apple-converted-space">         </span>* 🚨 關鍵載入檢查函數：確保 React 和 LucideReact 變數已存在</p>
+<p class="p1"><span class="Apple-converted-space">         </span>* 這能強制等待 CDN 載入完成，解決 'forwardRef' 錯誤。</p>
+<p class="p1"><span class="Apple-converted-space">         </span>*/</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const waitForLibraries = () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>return new Promise((resolve, reject) =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const check = () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>// 檢查三個關鍵變數：React、ReactDOM 和 LucideReact</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>if (window.React &amp;&amp; window.ReactDOM &amp;&amp; window.LucideReact) {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>console.log("React, ReactDOM, and LucideReact are loaded. Proceeding to render.");</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>resolve();</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>// 如果還沒載入，等待 50 毫秒後再次檢查</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>setTimeout(check, 50);</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>};</p>
+<p class="p1"><span class="Apple-converted-space">                </span>check();</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p1"><span class="Apple-converted-space">        </span>};</p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/**</p>
+<p class="p1"><span class="Apple-converted-space">         </span>* 變數解構</p>
+<p class="p1"><span class="Apple-converted-space">         </span>*/</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const React = window.React;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const ReactDOM = window.ReactDOM;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const GoogleGenAI = window.GoogleGenAI; // 仍可作為全域變數使用</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const { useState, useEffect, useCallback, useMemo } = React;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// 關鍵：從 LucideReact 全域物件中取出所有需要的圖標</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const LucideReact = window.LucideReact || {};<span class="Apple-converted-space"> </span></p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>const Search = LucideReact.Search;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const Asterisk = LucideReact.Asterisk;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const Share2 = LucideReact.Share2;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const LayoutGrid = LucideReact.LayoutGrid;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const CalendarIcon = LucideReact.Calendar;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const ChevronDown = LucideReact.ChevronDown;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const Filter = LucideReact.Filter;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const ArrowUpDown = LucideReact.ArrowUpDown;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const MapPin = LucideReact.MapPin;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const ArrowUpRight = LucideReact.ArrowUpRight;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const LinkIcon = LucideReact.Link;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const Check = LucideReact.Check;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const Star = LucideReact.Star;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const Music2 = LucideReact.Music2;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const Mountain = LucideReact.Mountain;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const Store = LucideReact.Store;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const Frame = LucideReact.Frame;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const PenTool = LucideReact.PenTool;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const Zap = LucideReact.Zap;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const Ticket = LucideReact.Ticket;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const ArrowLeft = LucideReact.ArrowLeft;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const ArrowRight = LucideReact.ArrowRight;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const Loader2 = LucideReact.Loader2;</p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/**</p>
+<p class="p1"><span class="Apple-converted-space">         </span>* ==============================================</p>
+<p class="p1"><span class="Apple-converted-space">         </span>* CONFIGURATION: PROXY URL (替換您的後端服務網址)</p>
+<p class="p1"><span class="Apple-converted-space">         </span>* ==============================================</p>
+<p class="p1"><span class="Apple-converted-space">         </span>*/</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const PROXY_URL = 'https://your-safe-proxy-api.vercel.app/api/events';<span class="Apple-converted-space"> </span></p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/**</p>
+<p class="p1"><span class="Apple-converted-space">         </span>* ==============================================</p>
+<p class="p1"><span class="Apple-converted-space">         </span>* TYPES &amp; CONSTANTS</p>
+<p class="p1"><span class="Apple-converted-space">         </span>* ==============================================</p>
+<p class="p1"><span class="Apple-converted-space">         </span>*/</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const EventCategory = {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>Exhibition: 'Exhibition', Market: 'Market', Music: 'Music',</p>
+<p class="p1"><span class="Apple-converted-space">            </span>Outdoor: 'Outdoor', Workshop: 'Workshop', Other: 'Other'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>};</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const categories = ['All', ...Object.values(EventCategory)];</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const categoryLabels = {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>'All': '所有類型', [EventCategory.Exhibition]: '展覽', [EventCategory.Market]: '市集',</p>
+<p class="p1"><span class="Apple-converted-space">            </span>[EventCategory.Music]: '音樂', [EventCategory.Outdoor]: '戶外/登山', [EventCategory.Workshop]: '工作坊',</p>
+<p class="p1"><span class="Apple-converted-space">            </span>[EventCategory.Other]: '其他'</p>
+<p class="p1"><span class="Apple-converted-space">        </span>};</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// --- (服務函數和所有 React 組件的邏輯) ---</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>const fetchCuratedEvents = async () =&gt; {</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// 檢查是否已設定 Proxy URL</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (PROXY_URL === 'https://your-safe-proxy-api.vercel.app/api/events') {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>console.warn("Proxy URL is still default. Returning demo data.");</p>
+<p class="p1"><span class="Apple-converted-space">                </span>return [{</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>id: "demo-1", title: "請設定後端 Proxy URL", date:</p>
+</body>
+</html>
