@@ -1,8 +1,11 @@
 {
   "name": "weekend-vibes-proxy",
   "version": "1.0.0",
+  "description": "Backend proxy for calling Gemini API securely.", // <--- 這裡必須有逗號
+  "main": "api/events.js", // <--- 這裡必須有逗號
   "dependencies": {
-    "@google/genai": "^0.1.0"
-    // <--- **注意：** 這是最後一個屬性，所以這裡**不能有逗號**！
-  }
+    "@google/genai": "^0.1.0" 
+    // <--- **【關鍵】** 這是 "dependencies" 物件裡面的最後一個屬性，這裡**絕對不能有逗號**！
+  } 
+  // <--- **【關鍵】** 這是整個檔案的最後一個物件，這裡**絕對不能有逗號**！
 }
